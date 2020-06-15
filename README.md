@@ -100,6 +100,11 @@ List discuss and demonstrate 6 software quality characteristics.
 
 ## Q3	Outline a standard high level structure for a MERN stack application and explain the components
 
+Just the mern components and structure?
+
+https://blog.hyperiondev.com/index.php/2018/09/10/everything-need-know-mern-stack/
+https://www.geeksforgeeks.org/mern-stack/
+
 6.0 to >5.0 pts
 HD
 Shows almost flawless understanding of the high level structure of the app
@@ -108,6 +113,8 @@ Shows almost flawless understanding of the high level structure of the app
 
 ## Q4	A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
+seek requirements??
+
 6.0 to >5.0 pts
 HD
 Effectively describes a range of skills and knowledge required by IT workers to complete a quality web development project
@@ -115,6 +122,11 @@ Effectively describes a range of skills and knowledge required by IT workers to 
 
 
 ## Q5	With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges
+
+
+self reflect and more seek
+rails ruby html css 
+time management technical and soft skills
 
 6.0 to >5.0 pts
 HD
