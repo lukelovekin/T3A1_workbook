@@ -15,6 +15,83 @@ Working on large projects with other developers, a git repository can have more 
 
 ## Q2	What are the most important aspects of quality software?
 
+
+REPHRASE ===========================================================
+
+derived or extracted from the ISO 9126-3 and the subsequent ISO 25000:2005[3] quality model the Consortium for IT Software Quality (CISQ) has defined five major desirable structural characteristics needed for a piece of software to provide business value: Reliability, Efficiency, Security, Maintainability and (adequate) Size.
+
+Reliability
+An attribute of resiliency and structural solidity. Reliability measures the level of risk and the likelihood of potential application failures. It also measures the defects injected due to modifications made to the software (its "stability" as termed by ISO). The goal for checking and monitoring Reliability is to reduce and prevent application downtime, application outages and errors that directly affect users, and enhance the image of IT and its impact on a company's business performance.
+
+Efficiency
+The source code and software architecture attributes are the elements that ensure high performance once the application is in run-time mode. Efficiency is especially important for applications in high execution speed environments such as algorithmic or transactional processing where performance and scalability are paramount. An analysis of source code efficiency and scalability provides a clear picture of the latent business risks and the harm they can cause to customer satisfaction due to response-time degradation.
+
+Security
+A measure of the likelihood of potential security breaches due to poor coding practices and architecture. This quantifies the risk of encountering critical vulnerabilities that damage the business.[20]
+
+Maintainability
+Maintainability includes the notion of adaptability, portability and transferability (from one development team to another). Measuring and monitoring maintainability is a must for mission-critical applications where change is driven by tight time-to-market schedules and where it is important for IT to remain responsive to business-driven changes. It is also essential to keep maintenance costs under control.
+
+Size
+While not a quality attribute per se, the sizing of source code is a software characteristic that obviously impacts maintainability. Combined with the above quality characteristics, software size can be used to assess the amount of work produced and to be done by teams, as well as their productivity through correlation with time-sheet data, and other SDLC-related metrics.
+
+
+- Product does exactly what the user wants to do with it
+- portability, userability, reusability, correctness, maintainability
+
+Dynamic Interface
+- user friendly, intuitive navidations
+- smart menus and filters
+- attractive design
+
+Multiplatform/cross device
+- many users, devices, one application
+
+Secure
+- PCI DSS compliant???
+- data encryption
+- secure auth
+- safe from attacks
+- confidentiality of data maintained
+
+Fast
+- tested for millions of records, handles masses of users simultaiously
+
+Business Intel
+- attractive dashboard
+- actionable info
+- various mis reports
+- google analytics integration
+- Realtime info
+- Alerts and notifications
+
+Customizable
+- pluggable architecture
+- CMS Based page desing
+- Normailsed and sanitised DB
+- layered database
+- User customized forms
+
+intergratble
+- SOAP web services
+- xml and json output
+- object oriented framework
+- inbuilt apis
+
+Trouble shooting
+- 24x7 helpdesk
+- error log and auto reporting
+- live chat
+- live fix
+
+
+multi currency, multilanguage, 
+
+=====================================================
+
+https://www.youtube.com/watch?v=bR-l1K9Q9hM
+https://en.wikipedia.org/wiki/Software_quality#:~:text=Based%20on%20these%20models%2C%20the,Maintainability%20and%20(adequate)%20Size.
+
 6.0 to >5.0 pts
 HD
 List discuss and demonstrate 6 software quality characteristics.
