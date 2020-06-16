@@ -10,97 +10,31 @@ One of the most popular versions of distributed control systems is git. Git is o
 
 To keep our main source "master branch (default branch)", clean and in working order, new branches can be created. A branch is like a pointer to the latest commit. New branches copy the master branch at the point of creation and allows the use of the source in a separate environment where features, changes, tests and more can be trialled and tested before it is merged in with the master branch and checked for merge conflicts. At any time you can revert back to a previous commit if need be as all commits are recorded. The source can be collaborated on with other users allowing them to alter code directly (usually on a branch) or allowing them to copy the repo which they can push to your repo which you can then see the changes and pull their code into yours
 
-Working on large projects with other developers, a git repository can have more than one collaborator. The Developer of the initial repository can invite collaborators and allow them a number of different permissions whether it's just read-only or being able to edit and add and make commits of their own from their own cloned/forked version of the repository. Like previously mentioned, each collaborator would generally be working off different branches in different areas of the code and once finished they can add, commit and push their version of the code to the origin where the origin can then make a pull request and pull/merge the code and check for merge conflicts before finalising. Each time a collaborator begin work it is best to do a git pull in the command line to make sure they are about to work with the latest version of the code saving potential merge conflicts.
+Working on large projects with other developers, a git repository can have more than one collaborator. The Developer/Organisation of the initial repository can invite collaborators and allow them a number of different permissions whether it's just read-only or being able to edit and add and make commits of their own from their own cloned/forked version of the repository. Like previously mentioned, each collaborator would generally be working off different branches in different areas of the code and once finished they can add, commit and push their version of the code to the origin where the origin can then make a pull request and pull/merge the code and check for merge conflicts before finalising. Each time a collaborator begin work it is best to do a git pull in the command line to make sure they are about to work with the latest version of the code saving potential merge conflicts.
 
+## Important Aspects of Quality Software.
 
-## Q2	What are the most important aspects of quality software?
+Reliability:
+The software should consistency do exactly what the user expected it to do, if users run into errors then they should be handled in a way that doesn't disadvantage the user in any way. Things that can make software unreliable could include bad coding practices, non-compliance, lack of testing, lack of error and exception handling and more.
 
+Efficiency:
+Efficient software is software that is fast, memory-efficient, uses minimal resources, minimal external service calls and database calls. Efficiency is a result of keeping and checking to make sure the software has well thought out Application Architectural practices, good coding practices with object-oriented and SQL programming and keeping and maintaining data, memory and network management.
 
-REPHRASE ===========================================================
+Security:
+Quality software security includes being able to prevent attackers and keep data secure and maintained as well as keeping attackers from going where they shouldn't. This includes minimum features such as being Payment Card Industry (PCI) Compliant, makes data encrypted, secure authentication and authorisation. To keep software secure the following should be included as a minimum, validating input, Error and Exception handling, multi-layer design compliance and best practices used amongst Security, programming and application architecture.
 
-derived or extracted from the ISO 9126-3 and the subsequent ISO 25000:2005[3] quality model the Consortium for IT Software Quality (CISQ) has defined five major desirable structural characteristics needed for a piece of software to provide business value: Reliability, Efficiency, Security, Maintainability and (adequate) Size.
+Portability:
+Portable software is software that can be used by many users, each of which can use the software on a number of different devices and on a number of operating systems all on the one account and shouldn't be relied on by hardware that isn't common to the everyday person.
 
-Reliability
-An attribute of resiliency and structural solidity. Reliability measures the level of risk and the likelihood of potential application failures. It also measures the defects injected due to modifications made to the software (its "stability" as termed by ISO). The goal for checking and monitoring Reliability is to reduce and prevent application downtime, application outages and errors that directly affect users, and enhance the image of IT and its impact on a company's business performance.
+Modifiability:
+Modifiable software is software that is adaptable and flexible in a way so to add or change the software behaviour, takes minor alterations to code while not affecting any code that might be coupled to code that is being altered
 
-Efficiency
-The source code and software architecture attributes are the elements that ensure high performance once the application is in run-time mode. Efficiency is especially important for applications in high execution speed environments such as algorithmic or transactional processing where performance and scalability are paramount. An analysis of source code efficiency and scalability provides a clear picture of the latent business risks and the harm they can cause to customer satisfaction due to response-time degradation.
-
-Security
-A measure of the likelihood of potential security breaches due to poor coding practices and architecture. This quantifies the risk of encountering critical vulnerabilities that damage the business.[20]
-
-Maintainability
-Maintainability includes the notion of adaptability, portability and transferability (from one development team to another). Measuring and monitoring maintainability is a must for mission-critical applications where change is driven by tight time-to-market schedules and where it is important for IT to remain responsive to business-driven changes. It is also essential to keep maintenance costs under control.
-
-Size
-While not a quality attribute per se, the sizing of source code is a software characteristic that obviously impacts maintainability. Combined with the above quality characteristics, software size can be used to assess the amount of work produced and to be done by teams, as well as their productivity through correlation with time-sheet data, and other SDLC-related metrics.
-
-
-- Product does exactly what the user wants to do with it
-- portability, userability, reusability, correctness, maintainability
-
-Dynamic Interface
-- user friendly, intuitive navidations
-- smart menus and filters
-- attractive design
-
-Multiplatform/cross device
-- many users, devices, one application
-
-Secure
-- PCI DSS compliant???
-- data encryption
-- secure auth
-- safe from attacks
-- confidentiality of data maintained
-
-Fast
-- tested for millions of records, handles masses of users simultaiously
-
-Business Intel
-- attractive dashboard
-- actionable info
-- various mis reports
-- google analytics integration
-- Realtime info
-- Alerts and notifications
-
-Customizable
-- pluggable architecture
-- CMS Based page desing
-- Normailsed and sanitised DB
-- layered database
-- User customized forms
-
-intergratble
-- SOAP web services
-- xml and json output
-- object oriented framework
-- inbuilt apis
-
-Trouble shooting
-- 24x7 helpdesk
-- error log and auto reporting
-- live chat
-- live fix
-
-
-multi currency, multilanguage, 
-
-=====================================================
-
-https://www.youtube.com/watch?v=bR-l1K9Q9hM
-https://en.wikipedia.org/wiki/Software_quality#:~:text=Based%20on%20these%20models%2C%20the,Maintainability%20and%20(adequate)%20Size.
-
-6.0 to >5.0 pts
-HD
-List discuss and demonstrate 6 software quality characteristics.
-
-
+Usability: 
+Usability includes the software being intuitive, easy to user and user friendly. The software should include a nice design. The software features should cover all the possible user stories/requirements expected from the software. The main and most commonly used functions and features should be noticeable and visible or at least easy to navigate to without having to go searching or googling to find out what the software does and how to do it.
 
 ## Q3	Outline a standard high level structure for a MERN stack application and explain the components
 
-Just the mern components and structure?
+Just the M.E.R.N components and structure and what they?
 
 https://blog.hyperiondev.com/index.php/2018/09/10/everything-need-know-mern-stack/
 https://www.geeksforgeeks.org/mern-stack/
@@ -127,6 +61,8 @@ Effectively describes a range of skills and knowledge required by IT workers to 
 self reflect and more seek
 rails ruby html css 
 time management technical and soft skills
+bring up previous project
+why did i use this language and why, aws, deployment
 
 6.0 to >5.0 pts
 HD
@@ -136,6 +72,7 @@ Effectively describes a range of skills and knowledge used to complete a project
 
 ## Q6	With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
 
+bring up previous project
 
 6.0 to >5.0 pts
 HD
@@ -182,7 +119,7 @@ Demonstrates an extensive ability to manipulate arrays
 HD
 Demonstrates an extensive ability to manipulate objects
 
-
+next few questions were also in workbook one but with ruby examples
 
 ## Q12	Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
 
@@ -243,9 +180,10 @@ for (model of models) {
 
 ### References
 
-Q1 https://www.atlassian.com/git/tutorials/what-is-version-control
+Q1  https://www.atlassian.com/git/tutorials/what-is-version-control
 
-Q2
+Q2  https://en.wikipedia.org/wiki/Software_quality#:~:text=Based%20on%20these%20models%2C%20the,Maintainability%20and%20(adequate)%20Size.
+    https://www.silasreinagel.com/blog/2016/11/15/the-seven-aspects-of-software-quality/
 
 Q3
 
