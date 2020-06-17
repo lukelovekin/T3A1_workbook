@@ -155,14 +155,85 @@ Areas that need work:
 - The help file was too basic and only somewhat accurate. Could have been more detailed and accurate.
 - Tests were not implemented at all. Could have sacrificed some unnecessary sprinkles and made time to add tests at least 1.
 
-## Q7	Explain control flow, using an example from the JavaScript programming language
+## Control Flow with Javascript Examples
 
+In programming there is a concept called control structures/ control flow. Simply put a control structure analyses a given expression and chooses a direction to go based on the result. The term flow control details the direction the program takes. It is a basic decision making process in computing. Selection structions are used for decisions and branching off to 2 or more alternative paths while repetition loops are used for looping a piece of code multiple times in a row. In either selection or repetition flow control statements there usually involves decision steps. These decision steps tell the computer which line of code to execute next. These steps rely on conditions that are evaluated to either true or false.
 
-6.0 to >5.0 pts
-HD
-Provides a thorough explanation of control flow in programming
+If/ Else Control Structure e.g Since age is > then 18 the console logs "Old enough"
+```
+let age = 27
 
+if (age > 18) {
+  console.log("Old Enough")
+} else if (age < 18 && age >= 13) {
+  console.log("Teeny Bopper")
+} else {
+  console.log("yous a Child")
+}
+```
 
+Switch Statements e.g The variable is compared to each case and when it matches the console logs "you like Zelda". If a match wasn't found the "default" would console log "We don't know that game". "break needs to be included otherwise once a match has been found the below cases will also action.
+```
+let fav_game = "Zelda"
+
+switch (fav_game) {
+  case "Halo":
+    console.log("You like Halo")
+    break
+  case "Zelda"
+    console.log("You like Zelda")
+    break
+  default:
+    console.log("We don't know that game")
+}
+```
+Loops:
+While e.g This console logs 0 to 9. Each iteration the count of 0 get a value of 1 added to it, until the count matches the condition and stops
+```
+let count = 0
+
+while (count < 10) {
+  console.log(count)
+  count++
+}
+```
+For e.g Similar to the While loop, this console logs 0 to 9, I is 0 and while its less than 10 each iteration i plus 1.
+```
+for (let i = 0; i < 10; i++) {
+  console.log(i)
+}
+```
+For of  e.g. Fors use elements in arrays. This For loop will iterate each element of the array and console log them arbitrarily defined as value in this example
+```
+let fav_letters = ["a", "b", "c"] 
+
+for (let value of fav_letter) {
+  console.log(value)
+}
+
+```
+For Each e.g. Very similiar to above though index is also available in a For Each
+but this time the value and index(arbitrarily defined) are interpolated into a string and console logged.
+```
+let letters = ["a", "b", "c"]
+
+fav_letters.forEach(function(value, index) {
+  console.log(`${value} is at index ${index}`)
+
+```
+For in e.g Similiar to the For Of and For Each,  For "in" works for objects and their keys and values. This example is console logging each key in the object
+```
+let personA = {
+  name: "John",
+  age: 40,
+  dog: "Woofer"
+}
+
+for (let key in personA) {
+  console.log(key)
+}
+```
+" Break" and "Continue" can be found in control structures. Break will terminate the loop if conditions have been met and "continue" will just terminate the current iteration but the loop will continue.
 
 ## Q8	Explain type coercion, using examples from the JavaScript programming language
 
@@ -262,13 +333,8 @@ Q2  https://en.wikipedia.org/wiki/Software_quality#:~:text=Based%20on%20these%20
 
 Q3 https://www.apress.com/de/blog/all-blog-posts/why-mern/12056000
 
-Q4
-
-Q5
-
-Q6
-
-Q7
+Q7 https://coderacademy.instructure.com/courses/290/pages/flow-control?module_item_id=14446
+https://developer.mozilla.org/en-US/docs/Glossary/Control_flow
 
 Q8
 
