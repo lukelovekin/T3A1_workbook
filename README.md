@@ -237,19 +237,40 @@ for (let key in personA) {
 
 ## Q8	Explain type coercion, using examples from the JavaScript programming language
 
-6.0 to >5.0 pts
-HD
-Provides a thorough explanation of type coercion in programming
+Type coercion is the changing of the value of a data type into another type of data, together with its value such as a string to a number. Depending on the data types the loose == operater can act in different ways.
 
+Explicit:
+Explicit coercion or Type casting, is implemented on most basic types in Javascript. While the casting almost always returns a value, the result may not be what we expect. They force any value to the selected type such as Number(value) Will convert the value to a number. E.g Number("11") will convert this string into a number.
 
+Implicit
+Implicit coercion, is when data can be converted automatically between the different types, most commonly done when operators are used with values of different types ( 10 == null, 5/ "25", false + new Date) or when surrounded in context when values are coerced into boolean e.g (If (value){...}). To avoid implicit coercion in Javascript use === known as strict equality operator which symbols not to do coercion, just the two (==) are known as loose equality operator will do a coercion as well as a comparison.
+
+In Javascript there are only three types of coercion, to string, to boolean and to number. They work differently depending on if its converting a primitive or an object.
+
+For Primitives
+- String conversion
+- Boolean conversion
+- Numeric conversion
+
+For Objects
+- String conversion
+- Boolean conversion
+- Numeric conversion
 
 ## Q9	Explain data types, using examples from the JavaScript programming language
 
-6.0 to >5.0 pts
-HD
-Provides a thorough explanation of data types in programming
+<!-- As programmers we input some data and expect to get some data as output. Each piece of data however is classified by a type. Data types include
 
+    Numbers or Integers = 2 or Floating point numbers = 1.5
+    Strings (text) - “Hello”
+    Boolean - true / false
+    Arrays - [ 1, 2, 3 ]
+    Hashes - { “Sydney” => 2000, “Melbourne” => 3000, “Brisbane” => 4000 }
+    Symbols - :goodbye
 
+Numbers are simply just numbers. String are text represented in between " ". Boolean is a value of either true of false. Arrays are a collection of data types. Symbols are a name or a "key" that have an internal ID also known as a value. Hashes are a dictionary like collections of symbols. -->
+
+<!-- Good explanation, but a more-detailed code example is required for higher marks. How do you use these data types? -->
 
 ## Q10	Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
 
@@ -336,7 +357,7 @@ Q3 https://www.apress.com/de/blog/all-blog-posts/why-mern/12056000
 Q7 https://coderacademy.instructure.com/courses/290/pages/flow-control?module_item_id=14446
 https://developer.mozilla.org/en-US/docs/Glossary/Control_flow
 
-Q8
+Q8 https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/
 
 Q9
 
