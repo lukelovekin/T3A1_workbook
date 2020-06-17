@@ -32,18 +32,22 @@ Modifiable software is software that is adaptable and flexible in a way so to ad
 Usability: 
 Usability includes the software being intuitive, easy to user and user friendly. The software should include a nice design. The software features should cover all the possible user stories/requirements expected from the software. The main and most commonly used functions and features should be noticeable and visible or at least easy to navigate to without having to go searching or googling to find out what the software does and how to do it.
 
-## Q3	Outline a standard high level structure for a MERN stack application and explain the components
+## Structure and Componants for a MERN Stack Application
 
-Just the M.E.R.N components and structure and what they?
+The high level structure of a MERN stack application includes:
 
-https://blog.hyperiondev.com/index.php/2018/09/10/everything-need-know-mern-stack/
-https://www.geeksforgeeks.org/mern-stack/
+M = MongoDB
 
-6.0 to >5.0 pts
-HD
-Shows almost flawless understanding of the high level structure of the app
+E = Express, Meant for nodejs backend framework that makes wiriting nodejs and writeing server code a lot simpler. define routes,what to do with HTTP requests when they match specific patterns. sets . parses request url headers and params, sets responcse codes, cookies headers. to help with common funtionality like authorisation and authentication,  you can create custom Express middleware code.
+doesnt have a built in template engine butt supports other though not neccessary and the dynamic content is generated on the client.
 
+R = React, open sources javascript library, defining component of the mern stack, used to create views rendered in Html, not a framework,(library)react is used to render a view in the mvc model. views are declaritive meaning less management requried for the effect of changes in the view state or data and teh transitions andmutations in to DOM. React applies changes to new and old view and does the figuring out of how th enew view looks like makin them predictable, consistenant, easier to understand and maintan.
+React uses virtual DOM technology, an in memory data structure, the view is declared how to look i the form of the virtual representation
+Component based that maintains their own state and renders themselves, each components talt to each other and the app splits the app into components and focuses on one at a time
+React creates a repetitive and or conditional DOM elements using javascript
+Being iso morphic, react can run on both server and browser
 
+N = Node - BACKEND
 
 ## Q4	A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
@@ -185,7 +189,7 @@ Q1  https://www.atlassian.com/git/tutorials/what-is-version-control
 Q2  https://en.wikipedia.org/wiki/Software_quality#:~:text=Based%20on%20these%20models%2C%20the,Maintainability%20and%20(adequate)%20Size.
     https://www.silasreinagel.com/blog/2016/11/15/the-seven-aspects-of-software-quality/
 
-Q3
+Q3 https://www.apress.com/de/blog/all-blog-posts/why-mern/12056000
 
 Q4
 
