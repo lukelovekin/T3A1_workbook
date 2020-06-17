@@ -52,7 +52,7 @@ As a minimum :
 
 Hard Skills:
 - Broad technical Experience
-A Full stack of coding languages of some kinds for e.g
+A Full stack of coding languages for e.g
 - HTML, structures a webpage with information
 - CSS, styles the webpage
 - Ruby and Rails, a  server side web app framework and programming language that uses the MVC model
@@ -68,27 +68,59 @@ The ability to use Third Party software such as:
 - Must understand authorisation and authentication and how to implement into the project
 
 Soft Skills:
-
 - Ability to work in a team
 - Good communication skills
 - Good Time management
 - An understanding of Project management and Development methodology proccesses like Agile or a Trello board
 - Aptitude to problem solve
 
-## Q5	With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges
+## Knowledge and Skills Required to Complete a past Project, 
+
+Hard Skills:
 
 
-self reflect and more seek
-rails ruby html css 
-time management technical and soft skills
-bring up previous project
-why did i use this language and why, aws, deployment
+- The ability to use a Tech stack such as:
+  - Ruby on rails 
+      - The server-side web framework. A model-view-controller framework that uses Ruby as the programming language
+      -Knowledge on HTTP Requests, routes, Controllers, Rendering, Params, Views, Emedded Ruby, Partials, Models, Forms, Model Relations, Validation
+  - Ruby
+      - A programming language, version 2.7.1,
+      - The use of Data typoes, Flow control, loops, arrays, symbols, hashes, iterators, methods, blocks, classes, objects, gems
+  - VsCode
+      - Text editor
+  - Bootstrap & SCSS
+      - one of the most popular frameworks for styling and making webpages responsive The code used for styling the website
+      - Bootstrap also for styling.
+  - Postgresql
+      - Relational database management system which uses Structured query language (SQL) to set up the database and hold data for the webpage. 
+  - HTML 5
+      - A hypertext Markup Language used to structure the web app.
 
-6.0 to >5.0 pts
-HD
-Effectively describes a range of skills and knowledge used to complete a project.
+- The ability to use and implement Ruby Gems:
+Other than rails default gems, gems that were used include
+  - Devise
+      - A very common, battle-tested, open-sourced gem used to authenticate new and existing user also making it easy for allowing user authorisation to hide certain things from certain users. Devise comes with views and controllers that can be used for almost any webpage
+  - aws-sdk-s3
+      - This gem is needed in conjunction with active storage and Amazons S3 Bucket to store images on the internet
 
+- Third Party Software
+  - Heroku
+    - An online deployment website/ server/cloud used for hosting my website
+  - Github
+    - A git repository host online, used for storing managing and backing up my source code
+  - Amazon S3 Bucket
+    - Stores images on the Amazon AWS cloud keeping image uploads dynamic and keeping the webpage from running slower
+  - Trello
+      -  A Kanban software used to help with project management
+  - Lucid chart
+      - Software used to draw Sitemaps and ERDs and other charts and diagrams
 
+Soft Skills
+- Knowledge on Time management
+- An understanding of Project management and Development methodology proccesses like Agile or a Trello board
+- Creativity
+
+The main challenge was being pretty new to all these skills and having to really figure them out as you go and it was hard to accuratle plan a project that your not really familiar with
 
 ## Q6	With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
 
