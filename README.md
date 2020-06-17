@@ -82,17 +82,17 @@ Hard Skills:
 - The ability to use a Tech stack such as:
   - Ruby on rails 
       - The server-side web framework. A model-view-controller framework that uses Ruby as the programming language
-      -Knowledge on HTTP Requests, routes, Controllers, Rendering, Params, Views, Emedded Ruby, Partials, Models, Forms, Model Relations, Validation
+      -Knowledge on HTTP Requests, routes, Controllers, Rendering, Params, Views, Embedded Ruby, Partials, Models, Forms, Model Relations, Validation
   - Ruby
       - A programming language, version 2.7.1,
       - The use of Data typoes, Flow control, loops, arrays, symbols, hashes, iterators, methods, blocks, classes, objects, gems
-  - VsCode
+  - VScode
       - Text editor
   - Bootstrap & SCSS
       - one of the most popular frameworks for styling and making webpages responsive The code used for styling the website
       - Bootstrap also for styling.
   - Postgresql
-      - Relational database management system which uses Structured query language (SQL) to set up the database and hold data for the webpage. 
+      - A relational database management system which uses Structured query language (SQL) to set up the database and hold data for the webpage. 
   - HTML 5
       - A hypertext Markup Language used to structure the web app.
 
@@ -100,10 +100,10 @@ Hard Skills:
 Other than rails default gems, gems that were used include
   - Devise
       - A very common, battle-tested, open-sourced gem used to authenticate new and existing user also making it easy for allowing user authorisation to hide certain things from certain users. Devise comes with views and controllers that can be used for almost any webpage
-  - aws-sdk-s3
+  - AWS-SDK-s3
       - This gem is needed in conjunction with active storage and Amazons S3 Bucket to store images on the internet
 
-- Third Party Software
+- Third-Party Software
   - Heroku
     - An online deployment website/ server/cloud used for hosting my website
   - Github
@@ -116,21 +116,44 @@ Other than rails default gems, gems that were used include
       - Software used to draw Sitemaps and ERDs and other charts and diagrams
 
 Soft Skills
-- Knowledge on Time management
-- An understanding of Project management and Development methodology proccesses like Agile or a Trello board
+- Knowledge of Time management
+- An understanding of Project management and Development methodology processes like Agile or a Trello board
 - Creativity
 
-The main challenge was being pretty new to all these skills and having to really figure them out as you go and it was hard to accuratle plan a project that your not really familiar with
+The main challenge was being pretty new to all these skills and having to really figure them out as you go and it was hard to accurately plan a project that your not really familiar with
 
-## Q6	With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
+## Evaluate the Effectiveness of Knowledge and Skills
 
-bring up previous project
+Starting my terminal app project I had no prior knowledge to programming and I wasn't very handy with a computer. In preparation for this project, I had 3 weeks of trying to learn as much as possible to complete it. Starting from scratch I learnt:
+- Setting up my pc and Ubuntu terminal so I could use WSL for programming.
+- Learning Command Line Interface
+- Ruby, Data types, flow control, loops, arrays, symbols, hashes, iterators, methods blocks, classes, objects, inheritance, modules, gems, test-driven development, error handling.
 
-6.0 to >5.0 pts
-HD
-Evaluates effectiveness of knowledge and skills accurately, providing examples, and providing an insightful improvement on each skill
+I had a lot in mind when starting this project and the week felt like a couple of days and I quickly realised I bit off more then I could chew. I aimed for too many features and sprinkles instead of just focusing on Minimum Viable Product. Taking away from this project I will better plan out MVP and aim to finish that first and as I progress with the planned date I will reconsider adding extra features to projects. The areas that need work (below) were mainly due to me running out of time and just simply not getting around to finishing them in time.
 
+Areas that were effective:
+- Software Development Plan states the purpose. Could have a higher level of clarity.
+- Outlined area of user interaction and experience. Could have been outlined at a high level
+- Control flow diagram, done at a basic level. Could be done at a higher level
+- Variables and variable scope declared correctly. Could have used more block coding and nested structures and used their own scoped variables
+- Conditional control and loops which had multiple paths to handle multiple contingencies. Could have used them in a more effective manner
+- Imported Ruby Gems
+- The moderate use of ruby gems. Could have used more gems for more extensive functions.
+- Simple functions
+- DRY code.  Could have been more DRYer.
+- Code style and convention. Could have been done across all code with fewer errors
+- The application had few errors. Could have had less
+- Source control. Could have done more commits
+- Project management. Tools used could have been used more frequently.
+- Execution of a script. Only did one could have done more.
+- A very thorough walkthrough of the logic of the application, high level of thinking demonstrated
 
+Areas that need work:
+- Not much if at all any error handling included in this project. Could have simply achieved this but adding some "begins and rescues" to handling exceptions
+- Standard input and output. COuld have implemented in two or more sophisticated ways and demonstrated a deeper understanding.
+- Did not use command line arguments. Could have used at least one to demonstrate understanding.
+- The help file was too basic and only somewhat accurate. Could have been more detailed and accurate.
+- Tests were not implemented at all. Could have sacrificed some unnecessary sprinkles and made time to add tests at least 1.
 
 ## Q7	Explain control flow, using an example from the JavaScript programming language
 
