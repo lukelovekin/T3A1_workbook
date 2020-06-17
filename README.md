@@ -32,32 +32,48 @@ Modifiable software is software that is adaptable and flexible in a way so to ad
 Usability: 
 Usability includes the software being intuitive, easy to user and user friendly. The software should include a nice design. The software features should cover all the possible user stories/requirements expected from the software. The main and most commonly used functions and features should be noticeable and visible or at least easy to navigate to without having to go searching or googling to find out what the software does and how to do it.
 
-## Structure and Componants for a MERN Stack Application
+## Structure and Components for a MERN Stack Application
 
-The high level structure of a MERN stack application includes:
+The high-level structure of a MERN stack application includes:
 
-M = MongoDB
+M = MongoDB, used as the database for an application, MongoDB is a NoSQL document-oriented database with a JSON based query language. Unlike common relational databases, NoSQL doesn't have tables rows and relations. Data is seen as objects or documents, there can be a collection instead of a table and the collection can have multiple documents instead of rows each collection with there own unique identifying documents. Storing data in this way makes the database schema-less and the collections don't need the same set of fields. Unlike other common databases that use a SQL language to communicate with the database, MongoDB uses Javascript and you make database calls on the JSON objects created. 
 
-E = Express, Meant for nodejs backend framework that makes wiriting nodejs and writeing server code a lot simpler. define routes,what to do with HTTP requests when they match specific patterns. sets . parses request url headers and params, sets responcse codes, cookies headers. to help with common funtionality like authorisation and authentication,  you can create custom Express middleware code.
-doesnt have a built in template engine butt supports other though not neccessary and the dynamic content is generated on the client.
+E = Express, Meant for Node.js backend framework that makes writing Node.js and writing server code a lot simpler. Express helps define routes and helps control what to do with HTTP requests when they match specific patterns, parses request URL headers and parameters, sets response codes, cookies headers and more. To help with common functionality like authorisation and authentication,  you can create custom Express middleware code that can be included into Express code. Express doesn't have a built-in template engine butt supports others although not necessary and the dynamic content is generated on the client/browser.
 
-R = React, open sources javascript library, defining component of the mern stack, used to create views rendered in Html, not a framework,(library)react is used to render a view in the mvc model. views are declaritive meaning less management requried for the effect of changes in the view state or data and teh transitions andmutations in to DOM. React applies changes to new and old view and does the figuring out of how th enew view looks like makin them predictable, consistenant, easier to understand and maintan.
-React uses virtual DOM technology, an in memory data structure, the view is declared how to look i the form of the virtual representation
-Component based that maintains their own state and renders themselves, each components talt to each other and the app splits the app into components and focuses on one at a time
-React creates a repetitive and or conditional DOM elements using javascript
-Being iso morphic, react can run on both server and browser
+R = React, is a front end framework more likely to a library, open sources javascript library. It is the defining component of the MERN stack, used to create views rendered in Html. React is used to render a view in the MVC model. Views are declarative, meaning less management required for the effect of changes in the view state or data and the transitions and mutations into DOM. React applies changes to new and old views and does the figuring out of how the new view looks like, making them predictable, consistent, easier to understand and maintain. React uses virtual DOM technology which is an in-memory data structure. The view is declared how to look in the form of the virtual representation. Similar to other popular libraries, React is component-based where components maintain their own state and render themselves. Each component talks to each other and the app splits into components and focuses on one at a time.
+React creates repetitive and or conditional DOM elements using javascript.
+Being isomorphic, react can run on both server and browser.
 
-N = Node - BACKEND
+N = NodeJs, is basically Javascript out of the browser providing a javascript environment that allows the user to run code on the server and using npm the user has is able to choose from thousands of free packages to download to help achieve commonly used functionality. Open-sourced, single-threaded, fast and highly scalable.
 
-## Q4	A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
+## Skills and Knowledge Need in Order to develop a Project?
 
-seek requirements??
+As a minimum :
 
-6.0 to >5.0 pts
-HD
-Effectively describes a range of skills and knowledge required by IT workers to complete a quality web development project
+Hard Skills:
+- Broad technical Experience
+A Full stack of coding languages of some kinds for e.g
+- HTML, structures a webpage with information
+- CSS, styles the webpage
+- Ruby and Rails, a  server side web app framework and programming language that uses the MVC model
+- PostgreSQL to store data
+- Knowledge of the Command Line Interface.
 
+The ability to use Third Party software such as:
+- A Source control process to store and manage source like using GitHub
+- Deployment website like Heroku
+- A cloud service like AWS S3 to store images to the cloud that show on the webpage
+- A payment system for financial transactions on the site like Stripe
 
+- Must understand authorisation and authentication and how to implement into the project
+
+Soft Skills:
+
+- Ability to work in a team
+- Good communication skills
+- Good Time management
+- An understanding of Project management and Development methodology proccesses like Agile or a Trello board
+- Aptitude to problem solve
 
 ## Q5	With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges
 
