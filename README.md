@@ -484,7 +484,6 @@ for (model of models) {
 
 ```
 
-# Convert to a singe PDF file(LukeSkywalker_T3A1.pdf) before submitting
 
 ### References
 
@@ -500,8 +499,4 @@ https://developer.mozilla.org/en-US/docs/Glossary/Control_flow
 
 Q8 https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/
 
-Q10 & Q11 https://developer.mozilla.org/en-US/docs/Web/JavaScript
-
-Q12
-
-Q13
+Q10 & Q11 & 12 https://developer.mozilla.org/en-US/docs/Web/JavaScript
