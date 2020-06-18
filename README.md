@@ -312,13 +312,58 @@ Numbers are simply just numbers. Strings are represented in-between " ". Boolean
 Will go into further information on some data types like arrays and objects below.
 
 
-## Q10	Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
+## Manipulating Arrays
 
-6.0 to >5.0 pts
-HD
-Demonstrates an extensive ability to manipulate arrays
+Javascript arrays, list-like objects containing a list of any data type, all with index values, that have methods for mutation and traversal operations. 
 
+Some manipulation examples:
+```
+let array = [1,"a",3,"v"] // create array
 
+fruits.length // displays lenght of array = 4
+
+let first = array[0] // array indexes start at 0 so the value is 1
+
+array.forEach(function(item, index,) {}  // will iterate a function with each element in array
+
+let newLength = array.push('mango')  // [1,"a",3,"v","mango]
+
+let last = array.pop()// remove mango from the end
+
+let first = array.shift() // remove 1 from the front
+
+let newLength = array.unshift("Hello") // add hello to the front of array
+
+let here = array.indexOf('a')  // 1
+let removedHereA = array.splice(here, 1) // removes the "a" element from the array.            
+
+let shallowCopy = array.slice() // this is makes a shallow copy or the array
+
+array.concat() // this joins another array to the current "array"
+
+array.every()  // returns true if elements in array match the functions condition called in every()
+
+array.filter()  // returns a new array containing all elements that matches the callback function in the parenthesis
+
+array.find()  // returns the found element in the array if it matches the call back function pu tin parenthesis
+
+array.findIndex() // returns the found index in the array, a call back function can be used in the parenthesis
+
+array.includes()  // if array includes an element that matches the callcack function it will return true or false
+
+array.indexOf()  // returns the index value of the element that matches the callcack function .
+
+array.join()  // joins all elements of the array into a string.
+
+array.map()  // returns a new array of elements that have been altered according to the function call in map()
+
+array.reverse() // reverses the order of the array
+
+array.sort() // sorts the elements of an array in order of alphabetical or numeric order
+
+array.toString()  // returns the array elements into a string
+
+```
 
 ## Q11	Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
 
