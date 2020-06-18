@@ -320,7 +320,7 @@ Some manipulation examples:
 ```
 let array = [1,"a",3,"v"] // create array
 
-fruits.length // displays lenght of array = 4
+let last = array.pop()// remove mango from the end
 
 let first = array[0] // array indexes start at 0 so the value is 1
 
@@ -328,20 +328,23 @@ array.forEach(function(item, index,) {}  // will iterate a function with each el
 
 let newLength = array.push('mango')  // [1,"a",3,"v","mango]
 
-let last = array.pop()// remove mango from the end
+fruits.length // displays lenght of array = 4
 
-let first = array.shift() // remove 1 from the front
+let removedHereA = array.splice(here, 1) // removes the "a" element from the array.            
 
 let newLength = array.unshift("Hello") // add hello to the front of array
 
 let here = array.indexOf('a')  // 1
-let removedHereA = array.splice(here, 1) // removes the "a" element from the array.            
+
+array.includes()  // if array includes an element that matches the callcack function it will return true or false
+
+array.join()  // joins all elements of the array into a string.
 
 let shallowCopy = array.slice() // this is makes a shallow copy or the array
 
-array.concat() // this joins another array to the current "array"
-
 array.every()  // returns true if elements in array match the functions condition called in every()
+
+let first = array.shift() // remove 1 from the front
 
 array.filter()  // returns a new array containing all elements that matches the callback function in the parenthesis
 
@@ -349,31 +352,54 @@ array.find()  // returns the found element in the array if it matches the call b
 
 array.findIndex() // returns the found index in the array, a call back function can be used in the parenthesis
 
-array.includes()  // if array includes an element that matches the callcack function it will return true or false
+array.concat() // this joins another array to the current "array"
 
 array.indexOf()  // returns the index value of the element that matches the callcack function .
 
-array.join()  // joins all elements of the array into a string.
-
-array.map()  // returns a new array of elements that have been altered according to the function call in map()
-
-array.reverse() // reverses the order of the array
+array.toString()  // returns the array elements into a string
 
 array.sort() // sorts the elements of an array in order of alphabetical or numeric order
 
-array.toString()  // returns the array elements into a string
+array.reverse() // reverses the order of the array
+
+array.map()  // returns a new array of elements that have been altered according to the function call in map()
 
 ```
 
-## Q11	Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
+## Manipulating Objects
 
-6.0 to >5.0 pts
-HD
-Demonstrates an extensive ability to manipulate objects
+Ways of manipulating objects in Javascript. 
 
-next few questions were also in workbook one but with ruby examples
+```
+let object1 = { name: "luke", age: "27" }
 
-## Q12	Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
+object1.defineProperties()  // adds the named properties given to as a parameters to an object.
+
+object1.freeze()  // freezes an object so other code cannot delete or change its properties.
+
+object1.seal()  // prevents other code from deleting properties the object.
+
+object1.isExtensible()  // determines if object can be extended
+
+object1.isSealed()  // if the object has been .seal() then will return true or false
+
+object1.values()  // returns array of values that in the object put in the parenthesis
+
+object1.isFrozen()  // determines if an object is frozen.
+
+object1.preventExtensions()  // prevents any extensions of an object.
+
+object1.valueOf()  // returns the value of the parameter entered.
+
+object1.defineProperty()  // adds the named property given to as a parameter to an object.
+
+object1.toString()  // returns the object into a string.
+
+object1.keys()  // returns an array of the keys in the object
+
+```
+
+## Manipulating JSON
 
 6.0 to >5.0 pts
 HD
@@ -427,7 +453,6 @@ for (model of models) {
 }
 ```
 
-# Give Headings
 # Convert to a singe PDF file(LukeSkywalker_T3A1.pdf) before submitting
 
 ### References
@@ -444,11 +469,7 @@ https://developer.mozilla.org/en-US/docs/Glossary/Control_flow
 
 Q8 https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/
 
-Q9
-
-Q10
-
-Q11
+Q10 & Q11 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 Q12
 
