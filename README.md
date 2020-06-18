@@ -155,7 +155,7 @@ Areas that need work:
 - The help file was too basic and only somewhat accurate. Could have been more detailed and accurate.
 - Tests were not implemented at all. Could have sacrificed some unnecessary sprinkles and made time to add tests at least 1.
 
-## Control Flow with Javascript Examples
+## Control Flow
 
 In programming there is a concept called control structures/ control flow. Simply put a control structure analyses a given expression and chooses a direction to go based on the result. The term flow control details the direction the program takes. It is a basic decision making process in computing. Selection structions are used for decisions and branching off to 2 or more alternative paths while repetition loops are used for looping a piece of code multiple times in a row. In either selection or repetition flow control statements there usually involves decision steps. These decision steps tell the computer which line of code to execute next. These steps rely on conditions that are evaluated to either true or false.
 
@@ -235,12 +235,12 @@ for (let key in personA) {
 ```
 " Break" and "Continue" can be found in control structures. Break will terminate the loop if conditions have been met and "continue" will just terminate the current iteration but the loop will continue.
 
-## Q8	Explain type coercion, using examples from the JavaScript programming language
+## Type Coercion
 
-Type coercion is the changing of the value of a data type into another type of data, together with its value such as a string to a number. Depending on the data types the loose == operater can act in different ways.
+Type coercion is the changing of the value of a data type into another type of data, together with its value such as a string to a number. Depending on the data types the loose == operator can act in different ways.
 
 Explicit:
-Explicit coercion or Type casting, is implemented on most basic types in Javascript. While the casting almost always returns a value, the result may not be what we expect. They force any value to the selected type such as Number(value) Will convert the value to a number. You can not explicitly convert a data type to Objects. You can not explicitly convert a data type to Objects, only a string, boolean and number.
+Explicit coercion or Typecasting, is implemented on most basic types in Javascript. While casting usually returns a value, the result may not be what was expected. They force any value to the selected type such as Number(value) Will convert the value to a number. You can not explicitly convert a data type to Objects. You can not explicitly convert a data type to Objects, only a string, boolean and number.
 
 Examples of Explicit coercion:
  
@@ -259,7 +259,7 @@ Boolean('1') // true
 Boolean('')  // false
 Boolean(0) // false 
 ```
-- Numeric conversion, converting sybols to a number throws an type error
+- Numeric conversion, converting symbols to a number throws a type error
 ```
 Number("11")  // 11
 Number(null)  // 0
@@ -269,9 +269,9 @@ Number(objectA)  // NaN
 ```
 
 Implicit:
-Implicit coercion, is when data can be converted automatically between the different types, most commonly done when operators are used with values of different types ( 10 == null, 5/ "25", false + new Date) or when surrounded in context when values are coerced into boolean e.g (If (value){...}). To avoid implicit coercion in Javascript use === known as strict equality operator which symbols not to do coercion, just the two (==) are known as loose equality operator will do a coercion as well as a comparison.
+Implicit coercion, is when data can be converted automatically between the different types, most commonly done when operators are used with values of different types ( 10 == null, 5/ "25", false + new Date) or when surrounded in context when values are coerced into boolean e.g (If (value){...}). To avoid implicit coercion in Javascript use === known as strict equality operator which symbols not to do coercion, just the two (==) are known as loose equality operator will do coercion as well as a comparison.
 
-In Javascript there are only three types of coercion, to string, to boolean and to number. They work differently depending on if its converting a primitive or an object.
+In Javascript, there are only three types of coercion, to a string, to boolean and to number. They work differently depending on if it's converting a primitive or an object.
 
 Logical context and logical operators will trigger an implicit coercion
 
@@ -294,20 +294,23 @@ null == ''  // false
 ```
 
 
-## Q9	Explain data types, using examples from the JavaScript programming language
+## Data Types
 
-<!-- As programmers we input some data and expect to get some data as output. Each piece of data however is classified by a type. Data types include
+As programmers, we input some data and expect to get some data as output. Each piece of data, however, is classified by a type. Some main types of data types include
 
-    Numbers or Integers = 2 or Floating point numbers = 1.5
-    Strings (text) - “Hello”
+    Numbers = 1,2,3,4,5,6
+    Strings - “Hello”
     Boolean - true / false
-    Arrays - [ 1, 2, 3 ]
-    Hashes - { “Sydney” => 2000, “Melbourne” => 3000, “Brisbane” => 4000 }
+    Arrays - [5,4,3]
+    Objects - { Sydney: 2000, Melbourne: 3000, Brisbane: 4000 }
     Symbols - :goodbye
+    Null 
+    Undefined
 
-Numbers are simply just numbers. String are text represented in between " ". Boolean is a value of either true of false. Arrays are a collection of data types. Symbols are a name or a "key" that have an internal ID also known as a value. Hashes are a dictionary like collections of symbols. -->
+Numbers are simply just numbers. Strings are represented in-between " ". Boolean is a value of either true or false. Arrays are a collection of data types. Symbols are a name or a "key" that have an internal ID also known as a value. Objects are dictionary-like collections of key-value pairs.
 
-<!-- Good explanation, but a more-detailed code example is required for higher marks. How do you use these data types? -->
+Will go into further information on some data types like arrays and objects below.
+
 
 ## Q10	Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
 
