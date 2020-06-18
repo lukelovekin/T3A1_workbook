@@ -1,3 +1,3 @@
-let array = [1, "a", 3, "v"]
+let luke = { "first_name": "Luke", "last_name": "Lovekin", "location": "Bris" }
 
-console.log(array)
+console.log(luke["first_name"])

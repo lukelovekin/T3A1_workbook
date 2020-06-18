@@ -400,12 +400,20 @@ object1.keys()  // returns an array of the keys in the object
 ```
 
 ## Manipulating JSON
+JSON is a string which looks similiar to the Javascript Object format, made up of dote notation and key value pairsl
 
-6.0 to >5.0 pts
-HD
-Demonstrates an extensive ability to manipulate JSON
+Ways of manipulating JSON in Javascript.
+
+```
+let luke = { "first_name": "Luke", "last_name": "Lovekin", "location": "Bris" }
+
+luke.first_name // "Luke"
+luke["first_name"] // "Luke"
 
 
+JSON.stringify() converts a Javascript object into in a JSON string
+JSON.parse() converts a JSON string into more readable, useable javascrapt as an object. 
+```
 
 ## Q13	For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes
 
