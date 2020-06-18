@@ -240,22 +240,59 @@ for (let key in personA) {
 Type coercion is the changing of the value of a data type into another type of data, together with its value such as a string to a number. Depending on the data types the loose == operater can act in different ways.
 
 Explicit:
-Explicit coercion or Type casting, is implemented on most basic types in Javascript. While the casting almost always returns a value, the result may not be what we expect. They force any value to the selected type such as Number(value) Will convert the value to a number. E.g Number("11") will convert this string into a number.
+Explicit coercion or Type casting, is implemented on most basic types in Javascript. While the casting almost always returns a value, the result may not be what we expect. They force any value to the selected type such as Number(value) Will convert the value to a number. You can not explicitly convert a data type to Objects. You can not explicitly convert a data type to Objects, only a string, boolean and number.
 
-Implicit
+Examples of Explicit coercion:
+ 
+- String conversion, primitives can all simply be converted to strings as expected
+```
+String( 100)  // "100"
+String(null) // 'null'
+String(undefined) // 'undefined'
+String(true) // 'true'
+String(Symbol('a symbol'))  // 'Symbol(a symbol)'
+```
+- Boolean conversion, empty arrays and objects are always truthy as well as symbols and functions
+```
+Boolean(1)  // true
+Boolean('1') // true
+Boolean('')  // false
+Boolean(0) // false 
+```
+- Numeric conversion, converting sybols to a number throws an type error
+```
+Number("11")  // 11
+Number(null)  // 0
+Number(undefined) // NaN
+Number(true)  // 1
+Number(objectA)  // NaN
+```
+
+Implicit:
 Implicit coercion, is when data can be converted automatically between the different types, most commonly done when operators are used with values of different types ( 10 == null, 5/ "25", false + new Date) or when surrounded in context when values are coerced into boolean e.g (If (value){...}). To avoid implicit coercion in Javascript use === known as strict equality operator which symbols not to do coercion, just the two (==) are known as loose equality operator will do a coercion as well as a comparison.
 
 In Javascript there are only three types of coercion, to string, to boolean and to number. They work differently depending on if its converting a primitive or an object.
 
-For Primitives
-- String conversion
-- Boolean conversion
-- Numeric conversion
+Logical context and logical operators will trigger an implicit coercion
 
-For Objects
-- String conversion
+Examples of Implicit coercion:
+
+For Primitives
+- String conversion, implicit string coercion is triggered by the + operator when the operand is a string
+```
+123 + '' // "123"
+```
 - Boolean conversion
+```
+[1] > null  // true
+'true' == true  // false
+null == ''  // false 
+```
 - Numeric conversion
+```
+10 / "5"  // 2
+```
+
 
 ## Q9	Explain data types, using examples from the JavaScript programming language
 
